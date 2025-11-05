@@ -1,0 +1,22 @@
+\begin{table}[!htbp]
+\centering
+\begin{tabular}{llllllllllllll}
+\toprule
+index & City & Model & MAE & MAPE & RMSE & Approach & Type & Station & R2 & MSE & sMAPE(\%) & MASE & Time(s) \\
+\midrule
+0 & Labrea & MLP & 0.61 & 19.5 & 1.05 & Artigo & Holdout &  &  &  &  &  &  \\
+1 & Benjamin Constant & SVR & 0.63 & 18.41 & 0.92 & Replicação (Fiel) & Holdout & Benjamin Constant & 0.06 & 0.84 & 14.97 & 0.58 & 0.23 \\
+2 & Eirunepe & SVR & 0.66 & 19.3 & 1.01 & Replicação (Fiel) & Holdout & Eirunepe & 0.01 & 1.02 & 15.84 & 0.64 & 0.2 \\
+3 & Barcelos & SVR & 0.66 & 16.45 & 0.99 & Replicação (Fiel) & Holdout & Barcelos & 0 & 0.98 & 14.57 & 0.67 & 0.2 \\
+4 & Tefe & SVR & 0.69 & 21.12 & 1.05 & Replicação (Fiel) & Holdout & Tefe & 0.01 & 1.11 & 16.01 & 0.62 & 0.23 \\
+5 & Manicore & SVR & 0.7 & 17.38 & 1.01 & Replicação (Fiel) & Holdout & Manicore & -0.03 & 1.02 & 15.36 & 0.69 & 0.21 \\
+6 & Coari & SVR & 0.7 & 23.07 & 1.06 & Replicação (Fiel) & Holdout & Coari & -0.04 & 1.12 & 16.11 & 0.64 & 0.2 \\
+7 & Parintins & SVR & 0.71 & 18.21 & 1.01 & Replicação (Fiel) & Holdout & Parintins & 0.14 & 1.03 & 15.51 & 0.76 & 0.2 \\
+8 & Iaurete & SVR & 0.75 & 20.11 & 1.03 & Replicação (Otimizada) & Holdout & Iaurete & 0.22 & 1.07 & 17.48 & 0.63 & 14.13 \\
+9 & Codajas & SVR & 0.84 & 39.83 & 1.33 & Replicação (Fiel) & Holdout & Codajas & -0.16 & 1.77 & 21.8 & 0.79 & 0.2 \\
+10 & S.G.Cachoeira & Ridge & 0.88 & 52.08 & 1.33 & Replicação (Fiel) & Holdout & S.G.Cachoeira & -0.02 & 1.76 & 23.98 & 0.74 & 0 \\
+11 & Manaus & SVR & 0.93 & 47.03 & 1.39 & Replicação (Fiel) & Holdout & Manaus & -0.19 & 1.93 & 25.58 & 0.83 & 0.2 \\
+\bottomrule
+\end{tabular}
+\caption{MAE por cidade e modelo - Replicação Fiel}\label{tab:tabela_replicacao_mae}
+\end{table}
